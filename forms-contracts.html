@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moody Music Company Intranet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        // Redirect to login page if not logged in
+        if (!sessionStorage.getItem('loggedIn')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Moody Music Company Intranet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="financial-reports.html">Financial Reports</a></li>
+                <li><a href="official-releases.html">Official Releases</a></li>
+                <li><a href="forms-contracts.html">Forms & Contracts</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="forms-contracts">
+            <h2>Forms & Contracts</h2>
+            <ul>
+                <li><a href="https://docs.google.com/forms/d/14fU5V016FHhfd9aKf7y9T0m7cDskggL5yfhJwI0yrus/edit" target="_blank">Moody Curated Spotify Playlist Submissions Form</a></li>
+                <li><a href="https://docs.google.com/forms/d/1-idx11xcetVirdmCNGtBZpK6xEJTjWbNo91-V4CpiW4/edit" target="_blank">Song Demo Submission Form</a></li>
+                <li><a href="https://docs.google.com/document/d/1mlSPwHPbZSAtMixmV8MooQkDXZ88KRC7eTeUIDBH1A0/edit#heading=h.2oiwrdf9nd3n" target="_blank">THRP Contract Template</a></li>
+                <li><a href="https://docs.google.com/document/d/140f9o6Tb-8ccO3OdX6HxuRgTMANVhBWLXeyPmuAd9TE/edit" target="_blank">Moody Contract Template</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Moody Music Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

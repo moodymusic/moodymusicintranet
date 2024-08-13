@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moody Music Company Intranet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        // Redirect to login page if not logged in
+        if (!sessionStorage.getItem('loggedIn')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Moody Music Company Intranet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="financial-reports.html">Financial Reports</a></li>
+                <li><a href="official-releases.html">Official Releases</a></li>
+                <li><a href="forms-contracts.html">Forms & Contracts</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="financial-reports">
+            <h2>Financial Reports</h2>
+            <ul>
+                <li><a href="https://docs.google.com/spreadsheets/d/1YfZfi-KtwG18YOLYWS3HCQY8nZavash1XY3yej6asPM/edit?gid=1499060834#gid=1499060834" target="_blank">Main Financial Report Spreadsheet</a></li>
+                <li><a href="https://docs.google.com/document/d/1-GWGllRxBhz3bkJyWnV1EJO65EyL970rNrpkt8qzcgg/edit" target="_blank">Yves Villamor's Financial Report</a></li>
+                <li><a href="https://docs.google.com/document/d/1SiyKuV_wpaN1NKa1yo5FagjHCicyPkeXAZUUGQ-6SP4/edit" target="_blank">Le John's Financial Report</a></li>
+                <li><a href="https://docs.google.com/document/d/1ELoJdGMH18aIV3UYOR8R_-4cnangbmO3ZNUkJECYwrY/edit" target="_blank">K.O.N's Financial Report</a></li>
+                <li><a href="https://docs.google.com/document/d/1wao-giSY8khzAVFJXqNV_5U7Fiz3KzId_mBt2sLpFXY/edit" target="_blank">Mayarie's Financial Report</a></li>
+                <li><a href="https://docs.google.com/document/d/1dur7ltlXSSx40n4xcnQGawFNO4OqP5D-V-0zrnLnq2U/edit" target="_blank">Psalm Gudgad's Financial Report</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Moody Music Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

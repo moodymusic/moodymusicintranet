@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moody Music Company Intranet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        // Redirect to login page if not logged in
+        if (!sessionStorage.getItem('loggedIn')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Moody Music Company Intranet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="financial-reports.html">Financial Reports</a></li>
+                <li><a href="official-releases.html">Official Releases</a></li>
+                <li><a href="forms-contracts.html">Forms & Contracts</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the Moody Music Company Intranet</h2>
+            <p>Access all your important files, reports, and resources in one place.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Moody Music Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
